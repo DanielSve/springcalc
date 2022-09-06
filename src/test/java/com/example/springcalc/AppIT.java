@@ -16,7 +16,7 @@ import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.when;
 import static org.hamcrest.Matchers.equalTo;
 
-@ExtendWith(SpringExtension.class)
+//@ExtendWith(SpringExtension.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 public class AppIT {
 
