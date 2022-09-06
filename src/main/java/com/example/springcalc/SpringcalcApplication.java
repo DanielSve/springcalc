@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class SpringcalcApplication {
-    String s = "hejsandu";
+    String s = "hejsanduu";
     public static void main(String[] args) {
         SpringApplication.run(SpringcalcApplication.class, args);
     }
