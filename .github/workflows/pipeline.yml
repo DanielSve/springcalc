@@ -100,6 +100,6 @@ jobs:
           image: ${{needs.build-and-push-image.outputs.tags}}
           cpu: 1 #Optional
           memory: 1 #Optional
-          dns-name-label: demo-java-robert-alfwar
-          name: demo-java-robert-alfwar
+          dns-name-label: demo-daniel
+          name: demo-daniel
           location: "Sweden Central"
