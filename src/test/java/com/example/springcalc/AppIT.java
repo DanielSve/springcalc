@@ -10,8 +10,8 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import static io.restassured.RestAssured.when;
 
-@ExtendWith(SpringExtension.class)
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
+//@ExtendWith(SpringExtension.class)
+//@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 public class AppIT {
 
     @Before
