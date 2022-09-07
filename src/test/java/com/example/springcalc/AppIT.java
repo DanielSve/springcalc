@@ -16,7 +16,7 @@ public class AppIT {
 
     @Before
     public void setup() {
-        RestAssured.baseURI = "http://localhost";
+//        RestAssured.baseURI = "http://localhost";
         RestAssured.port = 8080;
     }
 
