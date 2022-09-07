@@ -119,3 +119,4 @@ jobs:
           name: demo-daniel
           location: "Sweden Central"
           ports: "8080"
+
