@@ -21,7 +21,7 @@ public class AppIT {
     }
 
     @Test
-    public void validates_hello_message() {
+    public void validates_getPerson() {
         when().get().then()
                 .statusCode(200)
                 .body("id", Matchers.equalTo(1));
