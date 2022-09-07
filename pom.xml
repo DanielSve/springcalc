@@ -94,23 +94,23 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-                        <configuration>
-                            <classifier>spring-boot</classifier>
-                            <mainClass>
-                                com.example.springcalc.SpringcalcApplication
-                            </mainClass>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.springframework.boot</groupId>-->
+<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <goals>-->
+<!--                            <goal>repackage</goal>-->
+<!--                        </goals>-->
+<!--                        <configuration>-->
+<!--                            <classifier>spring-boot</classifier>-->
+<!--                            <mainClass>-->
+<!--                                com.example.springcalc.SpringcalcApplication-->
+<!--                            </mainClass>-->
+<!--                        </configuration>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
 <!--            <plugin>-->
 <!--                &lt;!&ndash; Build an executable JAR &ndash;&gt;-->
 <!--                <groupId>org.apache.maven.plugins</groupId>-->
@@ -119,6 +119,7 @@
 <!--                <configuration>-->
 <!--                    <archive>-->
 <!--                        <manifest>-->
+<!--                            <addClasspath>true</addClasspath>-->
 <!--                            <mainClass>com.example.springcalc.SpringcalcApplication</mainClass>-->
 <!--                        </manifest>-->
 <!--                    </archive>-->
