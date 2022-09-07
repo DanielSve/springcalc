@@ -68,7 +68,7 @@ jobs:
       web:
         image: ${{needs.build-and-push-image.outputs.tags}}
         ports:
-          - 8080:80
+          - 8081:80
 
     steps:
       - uses: actions/checkout@v3
